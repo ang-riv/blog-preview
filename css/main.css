@@ -79,6 +79,7 @@ figure img {
 
 .title:hover {
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 .description {
