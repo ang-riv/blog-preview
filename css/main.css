@@ -1,5 +1,4 @@
 /*** Global Styles***/
-/***! work on responsive img instead of the fixed height***/
 
 :root {
   --primary-color: hsl(47, 88%, 63%);
@@ -10,7 +9,10 @@
 
 html {
   font-size: 16px;
+  font-family: "Figtree", sans-serif;
 }
+
+/*** Body and Main Styles***/
 
 body {
   margin: 0;
@@ -20,7 +22,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Figtree", sans-serif;
   background-color: var(--primary-color);
 }
 
@@ -90,6 +91,7 @@ figure img {
 }
 
 /***Author Info Section Styles***/
+
 .author-info {
   display: flex;
   align-items: center;
@@ -107,10 +109,12 @@ figure img {
 }
 
 /***Attribution Section***/
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  font-weight: bold;
 }
