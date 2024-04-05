@@ -104,3 +104,12 @@ figure img {
   font-size: 0.875em;
   font-weight: 800;
 }
+
+/***Attribution Section***/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
